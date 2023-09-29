@@ -13,8 +13,6 @@ Output: 49
 
 from typing import List
 
-# Two Pointers
-
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         start, end, max_area = 0, len(height) - 1 , 0
